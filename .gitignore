@@ -1,3 +1,7 @@
 # Sublime
 *.sublime-project
 *.sublime-workspace
+
+# Jekyll
+.jekyll-metadata
+_site/
