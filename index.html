@@ -1,103 +1,38 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="./assets/css/index.css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-  <script type="text/javascript" src="./assets/js/index.js"></script>
-  <title>Max Kusnadi | Personal Page</title>
-</head>
-<body>
+---
+layout: cv
+title: Max Kusnadi | Personal Page
+---
+<header>
+  <p> Logo </p>
+  <nav>
+    <p>Sect 1</p>
+    <p>Sect 2</p>
+  </nav>
+</header>
 
-  <header>
-    <p> Logo </p>
-    <nav>
-      <p>Sect 1</p>
-      <p>Sect 2</p>
-    </nav>
-  </header>
+<div class='col-md-12 col-xs-12 section'>
+  <h1>Summary</h1>
+</div>
 
-  <div class='col-md-12 col-xs-12 section'>
-    <h1>Summary</h1>
-  </div>
+<div class='col-md-12 col-xs-12 section'>
+  <h1>Skills</h1>
+  <h2>Skills rating graph</h2>
+</div>
 
-  <div class='col-md-12 col-xs-12 section'>
-    <h1>Skills</h1>
-    <h2>Skills rating graph</h2>
-  </div>
+<div class='col-md-12 col-xs-12 section'>
+  <h1>Work Experience</h1>
+  <h2>Time Line</h2>
+</div>
 
-  <div class='col-md-12 col-xs-12 section'>
-    <h1>Work Experience</h1>
-    <h2>Time Line</h2>
-  </div>
+<div class='col-md-12 col-xs-12 section'>
+  <h1>Projects</h1>
+  <h2>Skills vs Interest graph</h2>
+</div>
 
-  <div class='col-md-12 col-xs-12 section'>
-    <h1>Projects</h1>
-    <h2>Skills vs Interest graph</h2>
-  </div>
+<div class='col-md-12 col-xs-12 section'>
+  <h1>Languange</h1>
+  <h2>Graph language vs confidence</h2>
+</div>
 
-  <div class='col-md-12 col-xs-12 section'>
-    <h1>Languange</h1>
-    <h2>Graph language vs confidence</h2>
-  </div>
-
-  <div id="contact" class='col-md-12 col-xs-12 section'>
-
-    <h1>Contact me</h1>
-    <hr/>
-
-    <div class='col-md-5 col-md-offset-1 col-xs-12 center content'>
-      Social Media presence is important nowadays and people do stalk. I'll make your job easier by listing all social media accounts I have.
-      <br/>
-      <br/>
-      If you think I am a good fit for your project, <a href="mailto:max.kusnadi@gmail.com">do let me know!</a>
-    </div>
-
-    <div class='col-md-4 col-md-offset-2 col-xs-12 content'>
-      <ul>
-
-        <li>
-          <a href="https://facebook.com/hi.kusnadi">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            Facebook
-          </a>
-        </li>
-
-        <li>
-          <a href="https://github.com/MaxKusnadi">
-            <i class="fa fa-github" aria-hidden="true"></i>
-            Github
-          </a>
-        </li>
-
-        <li>
-          <a href="https://www.linkedin.com/in/max-kusnadi-053a847a/">
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-            LinkedIn
-          </a>
-        </li>
-
-        <li>
-          <a href="mailto:max.kusnadi@gmail.com">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            Email
-          </a>
-        </li>
-
-      </ul>
-    </div>
-  </div>
-
-  <footer class="col-md-12 col-xs-12 center">
-    <div class="col-md-4 col-md-offset-4 col-xs-12">
-      <p>Created by <a href="index.html">Max Kusnadi</a> 2017</p>
-      <p>Credits: <a href="http://getbootstrap.com/">Bootsrap</a>, <a href="http://jquery.com/"> JQuery</a>, <a href="http://fontawesome.io/">Font Awesome</a></p>
-    </div>
-  </footer>
-
-</body>
-</html>
+{% include cv/contact-me.html %}
+{% include footer.html %}
