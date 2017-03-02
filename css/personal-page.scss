@@ -2,6 +2,7 @@
 # Jekyll Front Matter
 ---
 
+@import "cv/language";
 @import "cv/contact_me";
 @import "footer";
 
@@ -25,8 +26,7 @@ hr {
 	General Classes
  */
 .section {
-	padding-top: 30px;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 }
 
 .center {

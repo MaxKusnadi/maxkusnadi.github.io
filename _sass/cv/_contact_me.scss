@@ -1,14 +1,18 @@
 /*
 	Contact
  */
-#contact a:hover {
-	color:#cee1ff;
-}
+#contact  {
 
-#contact ul {
-	list-style-type: none;
-}
+	a:hover{
+		color:#cee1ff;
+  }
 
-#contact i {
-	margin-right: 10px;
+  ul {
+    list-style-type: none;
+  }
+
+  i {
+    margin-right: 10px;
+  }
+
 }
