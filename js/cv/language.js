@@ -38,11 +38,11 @@ Highcharts.chart('language-graph', {
 	},
 	{
 		name: 'Python',
-		data: [93]
+		data: [90]
 	},
 	{
 		name: 'Markdown',
-		data: [85]
+		data: [80]
 	},
 	{
 		name: 'JavaScript',

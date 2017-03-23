@@ -1,6 +1,7 @@
 ---
-layout: cv
+layout: default
 title: Max Kusnadi | Personal Page
+description: Max Kusnadi CV Resume
 ---
 <header>
   <p> Logo </p>
@@ -24,11 +25,10 @@ title: Max Kusnadi | Personal Page
   <h2>Time Line</h2>
 </div>
 
-<div class='col-md-12 col-xs-12 section'>
-  <h1>Projects</h1>
-  <h2>Skills vs Interest graph</h2>
-</div>
-
+{% include cv/projects.html %}
 {% include cv/language.html %}
 {% include cv/contact-me.html %}
 {% include footer.html %}
+
+<script src="./js/cv/language.js" type="text/javascript"></script>
+<script src="./js/cv/projects.js" type="text/javascript"></script>
