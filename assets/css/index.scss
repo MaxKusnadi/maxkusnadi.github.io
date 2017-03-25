@@ -1,0 +1,36 @@
+---
+# Jekyll Front Matter
+---
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import 'cv/summary';
+@import 'cv/timeline';
+@import 'cv/projects';
+@import 'cv/contact_me';
+
+// General
+html, body {
+  font-family: "Source Sans Pro", sans-serif;
+  height:100%;
+  width:100%;
+  background-color: #F6F6F6;
+}
+
+.row {
+  display:block;
+
+  .section{
+    height:100%;
+    padding:0 20px;
+    padding-top:10px;
+    text-align: center;
+
+    h1 {
+      margin:0;
+      text-align: center;
+      background: #005ea6;
+      color:white;
+      border-radius: 20px;
+    }
+  }
+}

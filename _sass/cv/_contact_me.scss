@@ -1,18 +1,11 @@
-/*
-	Contact
- */
-#contact  {
+#contact-me {
+  font-size: 1.6em;
 
-	a:hover{
-		color:#cee1ff;
+  ul{
+      list-style-type:none;
+      margin: 50px 0;
+    }
+  p{
+    text-align: center;
   }
-
-  ul {
-    list-style-type: none;
-  }
-
-  i {
-    margin-right: 10px;
-  }
-
 }
