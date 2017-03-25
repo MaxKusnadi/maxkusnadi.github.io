@@ -2,13 +2,18 @@
 # Jekyll Front Matter
 ---
 
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import 'cv/summary';
+@import 'cv/timeline';
+@import 'cv/projects';
+@import 'cv/contact_me';
 
 // General
 html, body {
-    height:100%;
-    width:100%;
-    background-color: #F6F6F6;
+  font-family: "Source Sans Pro", sans-serif;
+  height:100%;
+  width:100%;
+  background-color: #F6F6F6;
 }
 
 .row {
@@ -29,8 +34,3 @@ html, body {
     }
   }
 }
-
-
-// ul{
-//       list-style-type:none;
-//     }
