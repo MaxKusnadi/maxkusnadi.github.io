@@ -6,7 +6,6 @@ $(document).ready(function(){
 // Summary page
 
 se_explanation = function(){
-	$('#explanation').css('visibility', 'visible');
 	$('#explanation').fadeOut(500, function(){
 		$(this).html(`
 		<ul>
@@ -21,7 +20,6 @@ se_explanation = function(){
 }
 
 da_explanation = function(){
-	$('#explanation').css('visibility', 'visible');
 	$('#explanation').fadeOut(500, function(){
 		$(this).html(`
 		<ul>
@@ -34,3 +32,5 @@ da_explanation = function(){
         ).fadeIn(500);
 	})
 }
+
+
