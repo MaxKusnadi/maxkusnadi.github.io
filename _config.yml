@@ -1,9 +1,0 @@
-source: ./
-destination: ./_site
-exclude: ["*.sublime-project", "*.sublime-workspace"]
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-seo-tag
-  - jekyll-sitemap
